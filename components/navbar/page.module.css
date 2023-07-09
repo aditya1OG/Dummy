@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    background-color: rgb(25, 118, 210);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detrator {
+    font-family: "Gaoel";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none
+}
+
+.link {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logout {
+    background-color: white;
+    color: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
